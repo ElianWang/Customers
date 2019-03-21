@@ -1,0 +1,835 @@
+/* 表单样式 */
+/* 显示页面样式 */
+form label{
+	color:#424242;
+	font-size:13px;
+}
+.simple_form {
+	margin: 0 auto; 
+	overflow-x: auto; 
+	background-position: right top;
+	background-repeat: no-repeat;
+	font-family: "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
+}
+
+.simple_form .key {
+	width: 100px; 
+	min-height: 17px;
+	float: left;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 12px;
+	margin-top: 2px;
+}
+
+.simple_form .value {
+	width: 320px; 
+	max-width: 65%;
+	min-height: 17px;
+	display: inline-block;
+	border-bottom: 1px solid #DDD !important;
+	font-size: 14px;
+	text-align: center;
+}
+
+.simple_form .noLineValue {
+	width: 248px; 
+	max-width: 65%;
+	min-height: 17px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+}
+
+.simple_form .a_value {
+	width: 320px; 
+	max-width: 65%;
+	min-height: 17px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+}
+
+.simple_form .table_key {
+	width: 100px; 
+	min-height: 17px;
+	float: left;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 12px;
+	margin-top: 7px;
+}
+
+.simple_form .table_value {
+	width: 470px; 
+	min-height: 17px;
+	display: inline-block;
+	text-align: right;
+	border: 1px solid #CCC;
+	margin-top: 3px;
+}
+
+.simple_form .pagination {
+	color: #ccc;
+	background-color: #787882;
+}
+
+.simple_form .table_value a {
+	margin-right: 5px;
+}
+
+.simple_form .text_key {
+	width: 100px; 
+	min-height: 17px;
+	float: left;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 12px;
+	margin-top: 10px;
+}
+
+.simple_form .text_value {
+	padding-top: 10px;
+	display: inline;
+	float: left;
+}
+
+.simple_form .text_value textarea {
+	min-width: 350px; 
+	max-width: 75%;
+	float: left;
+	min-height: 80px;
+	display: inline-block;
+	border: 1px solid #CCC;
+	background-color: #EAEAEF;
+}
+
+.simple_form .test_table_value {
+	width: 580px; 
+	min-height: 17px;
+	text-align: right;
+	border: 1px solid #CCC;
+}
+
+.simple_form .list_value {
+	min-width: 350px;
+	max-width: 75%;
+	display: inline-block;
+	float: left;
+	border: 1px solid #CCC;
+	padding: 1px;
+	overflow: auto;
+	font-size: 14px;
+}
+
+.simple_form .list_value table {
+	width: 100%;
+	border: 1px solid #CCC;
+}
+
+.simple_form .list_value table tr, .simple_form .list_value table th {
+	height: auto;
+	line-height: 20px;
+	font-family: 'arial', 'verdana', 'tahoma';
+	font-weight: normal !important;
+	font-size: 14px;
+	color: #000;
+	vertical-align: initial;
+}
+
+.simple_form .list_value table td, .simple_form .list_value table th {
+	padding: 3px 3px 3px 5px;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	border-color: #CCC white #CCC white;
+	overflow: hidden;
+}
+
+.simple_form .list_value table th {
+	background-color: #BBB;
+}
+
+.simple_form .list_value table td {
+	background-color: #eee;
+}
+
+.simple_form .list_value table a {
+	color: #525252;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.simple_form tr {
+	height: 36px;
+}
+
+.simple_form th, .simple_form tr {
+	padding: 0;
+}
+
+.simple_form td {
+	padding-top: 5px;
+}
+
+.simple_form .time {
+	margin: 0 8px 0 8px;
+	display: inline-block;
+}
+
+.simple_form .radio_select {
+	margin-top: 5px;
+}
+
+.simple_form .radio_select label {
+	margin-right: 40px;
+	margin-left: 3px;
+}
+
+.form_tree_key {
+	padding-top: 12px;
+}
+
+.form_tree {
+	background: inherit;
+	margin-top: 6px;
+	border: 1px solid #CCC;
+	padding: 1px;
+	height: 160px;
+}
+
+.form_tree ul {
+	padding: 1px;
+}
+
+#user_show {
+	width: 580px;
+	background-image: url(../../images/formicons/user_cardm.png);
+}
+
+#user_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/usersm.png);
+}
+
+#pairblock {
+	height: 36px;
+}
+
+.a_value a {
+	color: #525252;
+	font: bold 12px "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#user_edit {
+	width: 620px;
+}
+
+#trainingsubject_show {
+	width: 620px;
+	background-image: url(../../images/formicons/course_showm.png);
+}
+
+#trainingsubject_edit {
+	width: 620px;
+	background-image: url(../../images/formicons/course_editm.png);
+}
+
+#tsubjecttype_show {
+	width: 580px;
+	background-image: url(../../images/formicons/classm.png);
+}
+
+#tsubjecttype_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/classeditm.png);
+}
+
+#courseware_show {
+	width: 580px;
+	background-image: url(../../images/formicons/compressm.png);
+}
+
+#courseware_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/edit_3m.png);
+}
+
+#knowledge_show {
+	width: 600px;
+	background-image: url(../../images/formicons/new_databasem.png);
+}
+
+#knowledge_edit {
+	width: 600px;
+	background-image: url(../../images/formicons/new_databaseeditm.png);
+}
+
+#lcardstrresource_show {
+	width: 580px;
+	background-image: url(../../images/formicons/statisticm.png);
+}
+
+#lcardstrresource_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/monitorm.png);
+}
+
+#learningcard_show {
+	width:620px;
+	background-image: url(../../images/formicons/learningcard_showm.png);
+}
+
+#learningcard_edit {
+	width: 620px;
+	background-image: url(../../images/formicons/learningcard_editm.png);
+}
+
+#learningcarditem_show {
+	width:600px;
+	background-image: url(../../images/formicons/learningcard_courseeditm.png);
+}
+
+#learningcarditem_edit {
+	width: 600px;
+	background-image: url(../../images/formicons/learningcard_courseeditm.png);
+}
+
+#studenttsubrecord_show {
+	width:600px;
+	background-image: url(../../images/formicons/learningcard_courseeditm.png);
+}
+
+#studenttsubrecord_edit {
+	width:620px;
+}
+
+#metting_show {
+	width:620px;
+	background-image: url(../../images/formicons/coursem.png);
+}
+
+#metting_edit {
+	width: 620px;
+	background-image: url(../../images/formicons/edit_1m.png);
+}
+
+#trainingcourse_show {
+	width:620px;
+	background-image: url(../../images/formicons/coursem.png);
+}
+
+#trainingcourse_edit {
+	width: 620px;
+	background-image: url(../../images/formicons/edit_1m.png);
+}
+
+#trainingTest_edit {
+	width: 640px;
+	background-image: url(../../images/formicons/examplanm.png);
+}
+
+#trainingTest_show {
+	width: 640px;
+	background-image: url(../../images/formicons/examshowm.png);
+}
+
+#inputScore_edit {
+	width: 580px;
+}
+
+#importScore_edit {
+	width: 450px;
+	background-image: url(../../images/formicons/microsoft_office_excelm.png);
+}
+
+#paperlayout_show {
+	width:620px;
+	background-image: url(../../images/formicons/templateshowm.png);
+}
+
+#paperlayout_edit {
+	width: 620px;
+	background-image: url(../../images/formicons/templateeditm.png);
+}
+
+#paperlayoutitem_show {
+	width: 480px;
+}
+
+#paperlayoutitem_edit {
+	width: 480px;
+}
+
+#papertemplate_show {
+	width: 620px;
+	background-image: url(../../images/formicons/edit_2m.png);
+}
+
+#papertemplate_edit {
+	width: 620px;
+	background-image: url(../../images/formicons/exammodelm.png);
+}
+
+#papertemplateitem_show {
+	width: 620px;
+}
+
+#papertemplateitem_edit {
+	width: 620px;
+}
+
+#testpaper_show {
+	width: 620px;
+	background-image: url(../../images/formicons/examarchivem.png);
+}
+
+#testpaper_edit {
+	width: 620px;
+}
+
+#testpaperitem_show {
+	width: 620px;
+}
+
+#testpaperitem_edit {
+	width: 640px;
+}
+
+#subject_show {
+	width:640px;
+	background-image: url(../../images/formicons/quesm.png);
+}
+
+#subject_edit {
+	width: 640px;
+	background-image: url(../../images/formicons/quesm.png);
+}
+
+#difficulty_show {
+	width: 580px;
+	background-image: url(../../images/formicons/difficultym.png);
+}
+
+#difficulty_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/difficultym.png);
+}
+
+#announcement_edit {
+	width: 620px;
+	background-image: url(../../images/formicons/text_editorm.png);
+}
+
+#announcement_show {
+	width: 620px;
+	background-image: url(../../images/formicons/msgcastviewm.png);
+}
+
+#announcementType_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/classeditm.png);
+}
+
+#mailTempl_edit {
+	width: 750px;
+	background-image: url(../../images/formicons/emailm.png);
+}
+
+#mailNotifyConfig_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/emailm.png);
+}
+#dataMaintain_show {
+	width: 580px;
+	background-image: url(../../images/formicons/db_showm.png);
+}
+#dataMaintain_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/db_uploadm.png);
+}
+#scoreExport_list {
+	width: 580px;
+	background-image: url(../../images/formicons/microsoft_office_excelm.png);
+}
+#statistic_show {
+	width: 580px;
+	background-image: url(../../images/formicons/numberm.png);
+}
+#password_edit {
+	width: 580px;
+	background-image: url(../../images/formicons/passwordm.png);
+}
+
+/* 创建编辑页面样式 */
+.simple_form .edit_key {
+	width: 100px; 
+	min-height: 17px;
+	float: left;
+	/* font-weight: bold; */
+	text-align: right;
+	margin-right: 12px;
+	padding-top: 5px;
+	/* color:#035F57; */
+}
+
+.simple_form .edit_area {
+	display: inline;
+	float: left;
+}
+
+.simple_form .edit_area input {
+	padding: 2px 4px 2px 4px;
+	font-size: 12px;
+}
+
+.simple_form .edit_area input:focus {
+	outline: none;
+}
+
+.simple_form .edit_area .textbox {
+	display: block;
+}
+
+.simple_form .tree_multiselect {
+	display: inline;
+	float: left;
+}
+
+.simple_form .tree_multiselect fieldset {
+	width: 480px; 
+	padding: 0px 2px 6px 0px;
+	border: 1px solid #DDDDDD;
+}
+
+.simple_form .tree_multiselect .radio {
+	margin: 5px;
+}
+
+.simple_form .tree_multiselect .radio span {
+	padding-left: 2px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	margin-right: 5px;
+}
+
+.simple_form .edit_key_test {
+	width: 100px; 
+	min-height: 17px;
+	float: left;
+	margin-right: 12px;
+	padding-top: 5px;
+}
+
+.simple_form .table_key_test {
+	width: 100px; 
+	min-height: 17px;
+	float: left;
+	margin-right: 12px;
+	margin-top: 7px;
+}
+
+.simple_form .slider {
+	position: absolute;
+}
+
+input.large_input {
+	width: 320px;
+}
+
+input.small_input {
+	width: 126px;
+}
+
+div.small_input {
+	width: 240px;
+}
+
+select.small_input {
+	width: 250px;
+}
+
+input[readonly] {
+	background-color: #fafafa;
+}
+
+table.embedded {
+	width: 580px;
+	border: 1px solid #CCC;
+}
+
+table.embedded tr, table.embedded th, table.embedded td {
+	text-align: left;
+	height: 20px;
+	line-height: 20px;
+}
+
+table.embedded th {
+	background-color: #BBB;
+	font-weight: bold;
+}
+
+table.embedded th, table.embedded td {
+	padding: 3px 3px 3px 5px;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	border-color: #CCC white #CCC white;
+	overflow: hidden;
+}
+
+table.embedded td {
+	background-color: #eee;
+}
+
+table.embedded a {
+	color: #525252;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+input.tiny {
+	width: 70px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* 按钮样式 */
+input.buttonq {
+	min-width: 62px !important;
+	height: 22px;
+	border: 0px !important;
+	outline: medium;
+	cursor: pointer;
+	border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	font-weight: bold;
+	font-size: 12px;
+	padding-top: 0px !important;
+}
+
+a.button {
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline;
+	padding: 4px 0 6px 10px;
+	font-size: 12px;
+	text-align: center;
+	background: url('../../images/panel/button_left.png') no-repeat 0 50%;
+	zoom: 1;
+}
+
+a.button span {
+	display: inline;
+	padding: 4px 18px 6px 8px;
+	color: #333;
+	text-shadow: #e7e6e6 0 -1px -1px;
+	font-family: 'Arial', 'sans-serif', 'Verdana';
+	font-size: 12px;
+	font-weight: Bold;
+	border: none;
+	background: url('../../images/panel/button_right.png') no-repeat 100% 50%;
+	zoom: 1;
+}
+
+.disabled {
+	opacity: .5;
+	cursor: default !important;
+}
+input.orangeBtn {
+	color: #fef4e9;
+	border: solid 1px #FF9933;
+	background: #FF9933;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9933', endColorstr='#FF9933');
+	/*padding: .2em 2em .2em;*/
+	cursor: pointer;
+	font-weight:bold;
+	width:70px;
+	height:25px;
+	border-radius: 4px !important;
+	margin-top:10px;
+}
+#closeBtn {
+	margin-left:30px;
+}
+input.orangeBtn:hover {
+	background: #f47c20;
+	border: solid 1px #f47c20;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E59040', endColorstr='#E59040');
+}
+input.greenBtn,button.greenBtn {
+	color: #fef4e9;
+	border: solid 1px #10B0B1;
+	background: #10B0B1;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#16716D', endColorstr='#16716D');
+	/* padding: .2em 2em .2em; */
+	cursor: pointer;
+	width:80px;
+	font-weight:bold;
+	width:70px;
+	height:25px;
+	text-align:center;
+	border-radius: 4px !important;
+}
+input.greenBtn:hover,button.greenBtn:hover {
+	background: #33C5C5;
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#16716D', endColorstr='#16716D');
+}
+/**左右数据移动控件的样式**/
+.edit_area ul li {
+	list-style-type: none;
+    float: left;
+    width: 100px;
+    color: #444;
+    margin:1px;
+    cursor: pointer;
+}
+.edit_area ul li:hover{
+    cursor: pointer;
+    border-color:#ccc;
+} 
+.checkedLi {
+	color:#ffffff;
+    background:#00A1FF;
+    cursor: pointer;
+}
+.panelDiv {
+	width:150px;
+	height:200px;
+	border:1px solid lightgray !important;
+	border:1px solid gray;
+	float:left;
+	margin-bottom:10px;
+}
+.panelTitle {
+	widht:100%;
+	height:12%;
+	background:rgb(0,101,105);
+	color:#fff
+}
+.panelArrows {
+	width:120px;
+	height:120px;
+	margin-top:30px;
+	float:left;
+}
+.arrowRight {
+	margin-left:20px;
+	margin-top:40px;
+	/*margin-bottom:30px;*/
+}
+.arrowLeft {
+	margin-left:20px;
+	margin-top:4px
+}
+/*新增车辆信息表单样式*/
+.addPhoto{
+	cursor:pointer;
+	font-size:11px;
+	color:blue;
+}
+/* 上传控件 */
+.upload
+{
+    margin-top:10px;
+    width:100%;
+    height:30px;
+}
+.upload .uploadbtnBox
+{
+    float:left;
+    height:20px;
+    width:70px;
+    margin-left:5px;
+    margin-top:-2px;
+}
+.upload .progress
+{
+    height:4px;
+    line-height:4px;
+    *zoom:1;
+    background:#fff;
+    float:left;
+    width:160px;
+    border:1px #ccc solid;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+    display:none;
+    margin-top:13px;
+}
+.upload .filestate
+{
+    float:left;
+    height:20px;
+    text-align:left;
+    width:150px;
+    line-height:20px;
+    display:none;
+    color:#333;
+    overflow:hidden;
+}
+.upload .progresspercent
+{
+    float:right;
+    padding-top:5px;
+    height:15px;
+    text-align:right;
+    font-size:9px;
+    line-height:15px;
+    color:#333;
+}
+
+.upload .uploadbtnBox .a-upload {
+    height:20px;
+    background:#4090c0;
+    border:1px solid #dddddd;color:#ffffff;
+    /* line-height:28px; */
+    padding:0 3px;
+    font-size:0.9em;
+    overflow: hidden;
+    display: inline-block;
+    text-decoration:none;
+    *display: inline;
+    *zoom: 1
+}
+
+.upload .uploadbtnBox .a-upload  input {
+    position: absolute;
+    width:70px;
+    height:30px;
+    overflow:hidden;
+    margin-left:-10px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.upload .progress .bar
+{
+    height:4px;
+    line-height:4px;
+    background:#4090c0;
+    *zoom:1; 
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    _zoom: 1;
+}
+.clearfix {
+	*zoom:1;
+}

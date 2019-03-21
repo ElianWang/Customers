@@ -1,0 +1,36 @@
+body{
+	background-image:url('/customer/images/login/bg.png');
+	margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-size:cover;
+}
+.login_form{
+	width:360px;
+	height:200px;
+	border:1px solid lightgray;
+	border-radius:10px;
+	border-color:#7294484;
+	position: absolute;
+	
+    left:50%;  
+    top:50%;  
+    margin:-100px 0 0 -180px
+}
+.sysName{
+	border-bottom:1px solid green;
+	width:100%;
+	height:35px;
+}
+.inputArea{
+	width:100%;
+	margin-bottom:20px;
+}
+#username,#password{
+	border:1px solid lightgray;
+	width:150px;
+}
+#errorMsg{
+	margin:0 auto;
+}

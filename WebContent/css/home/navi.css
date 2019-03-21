@@ -1,0 +1,179 @@
+/* µ¼º½ÑùÊ½ */
+#leftmenu {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+#leftmenutop {
+	padding-top: 6px;
+	position: absolute;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+
+.openLeftmenu {
+	list-style: none;
+	position: absolute;
+	top: 116px;
+	left: 6px;
+	cursor: pointer;
+	z-index: 0;
+}
+
+.openLeftmenu li {
+	position: relative;
+	margin-bottom: 2px;
+}
+
+.openLeftmenu li a {
+	text-decoration: none;
+}
+
+.openLeftmenu li img {
+	display: inline-block;
+	width: 76px;
+	margin-left: 6px;
+}
+
+.openLeftmenu li span {
+	font-family: 'Microsoft YaHei' 'Apple LiSung Light' 'NSimSun' 'LiSong Pro Light' 'SimSun' 'STSong';
+	display: block;
+	overflow: hidden;
+	height: 14px;
+	position: absolute;
+	top: 17px;
+	left: 48px;
+	line-height: 14px;
+	border: 0;
+	padding: 3px 10px;
+	background-color: #555;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color: #fcfcfc;
+	text-align: center;
+	text-shadow: #000 1px 1px 1px;
+	-moz-opacity: 0.95;
+	opacity: .95;
+	filter: alpha(opacity = 95);
+	width: 56px;
+}
+
+#main_header {
+	height: 64px;
+}
+
+#topmenu {
+	background: url('../../images/laypanel.png') left top;
+	height: 100%;
+	margin-right: 5px;
+}
+
+.topmenu-container {
+	position: relative;
+	top: 2px;
+	left: 25px;
+	height:60px;
+	width:60px;
+	float:left;
+	padding-right:25px;
+	/* display: none; */
+}
+
+.top-menu-item {
+	top: 0px; 
+	left: 0px;
+	width: 48px; 
+	display: block;
+	/* position: absolute; */
+	text-align: center;
+	text-decoration: none;
+}
+
+.top-menu-item img {
+	border: 0;
+	margin: 5px 0px 0px;
+	width: 100%;
+	cursor: pointer;
+	-moz-opacity: 0.95;
+	opacity: .95;
+	filter: alpha(opacity = 95);
+	z-index: 9;
+}
+
+.top-menu-item span {
+	width: 64px;
+	font-family: 'Microsoft YaHei' 'Apple LiSung Light' 'NSimSun' 'LiSong Pro Light' 'SimSun' 'STSong';
+	display: block;
+	font-size: 12px;
+	position: absolute;
+	/* top: -4px;
+	left: 16px; */
+	line-height: 14px;
+	border: 0;
+	padding: 2px 0px 2px 0px;
+	background-color: #555;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color: #fcfcfc;
+	text-align: center;
+	text-shadow: #333 1px 1px 1px;
+	-moz-opacity: 0.95;
+	opacity: .95;
+	filter: alpha(opacity = 95);
+	z-index: 9;
+	right:25px;
+}
+
+.openLeftmenu .menu_select span{
+	font-weight: bold;
+	font-size: 13px;
+	color: #040404;
+	background-color: #EEE;
+	text-shadow: #fff 1px 1px 1px;
+	-moz-box-shadow: 0 0 9px #fff;
+	-webkit-box-shadow: 0 0 9px #fff;
+	box-shadow: 0px 0px 9px #fff;
+	-moz-opacity: 0.95;
+	opacity: .95;
+	filter: alpha(opacity = 95);
+}
+
+.topmenu-container .menu_select span{
+	background-color: #EEE;
+	color: #040404;
+	text-shadow: #CCC 1px 1px 1px;
+	-moz-box-shadow: 0 0 9px #fff;
+	-webkit-box-shadow: 0 0 9px #fff;
+	box-shadow: 0px 0px 9px #fff;
+	-moz-opacity: 0.95;
+	opacity: .95;
+	filter: alpha(opacity = 95);
+}
+.topMenu-span {
+	width: 64px;
+	font-family: 'Microsoft YaHei' 'Apple LiSung Light' 'NSimSun' 'LiSong Pro Light' 'SimSun' 'STSong';
+	display: block;
+	font-size: 12px;
+	position: absolute;
+	/* top: -4px;
+	left: 16px; */
+	line-height: 14px;
+	border: 0;
+	padding: 2px 0px 2px 0px;
+	background-color: #555;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	color: #fcfcfc;
+	text-align: center;
+	text-shadow: #333 1px 1px 1px;
+	-moz-opacity: 0.95;
+	opacity: .95;
+	filter: alpha(opacity = 95);
+	z-index: 9;
+	right:25px;
+}
