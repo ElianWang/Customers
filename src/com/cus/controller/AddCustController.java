@@ -352,6 +352,7 @@ public class AddCustController {
 			}
 			orders.setOrderTime(new Date());
 			cust.addOrder(orders);
+			cust.updateTime(Integer.parseInt(customerId), new Date());
 		}catch (Exception e) {
 			System.out.println(e.getMessage());
 			object.put("success",false);

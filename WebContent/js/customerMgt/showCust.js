@@ -123,7 +123,7 @@
 				price:price,
 				totalAmount:totalAmount,
 				remarks:remarks
-				} ,
+				},
 			success:function(result){
 				var success = result.success;
 				if(success){
@@ -154,5 +154,6 @@
 	
 	function refreshTrack(){
 		$('#trackInfo').datagrid('reload');
+		$('#orderInfo').datagrid('reload');
 	}
 	

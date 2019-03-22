@@ -93,8 +93,8 @@
 							<input type="button" style="" class="greenBtn" id="searchList" onclick="searchL()" value="查询"/>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							<input type="button" style="" class="greenBtn" id="resetConditon" onclick="resetCon()" value="重置"/>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-							<input type="button" style="margin-left:30px" class="orangeBtn" id="excel_bu"  onclick="ExportXls()" value="导出" />
+<!-- 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+<!-- 							<input type="button" style="margin-left:30px" class="orangeBtn" id="excel_bu"  onclick="ExportXls()" value="导出" /> -->
 						</td>
 					</tr>
 				</table>
