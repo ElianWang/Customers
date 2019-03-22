@@ -37,12 +37,12 @@ public class CustInfoImpl implements CustInfo {
 			if (key.equals("name") || key.equals("address")||key.equals("company")|| key.equals("city")) {
 				hql += " and " + key + " like:" + key;
 			}else if(key.equals("startTime")){
-				hql += " and updateTime >=:date_format(" + key+",'yyyy-MM-dd')";
+				hql += " and updateTime >= date(:startTime)";
 			}else if(key.equals("endTime")){
-				hql += " and updateTime <=:date_format(" + key+",'yyyy-MM-dd')";
+//				hql += " and updateTime <=Date(:endTime,'yyyy-MM-dd HH:mm:ss')";
+				hql += " and updateTime < date(:endTime)+1";
 			}else if(key.equals("createTime")){
-//				hql += " and createTime =:date_format('" + key+"','yyyy-MM-dd')";
-				hql +=" and (datediff (createTime,"+ key +")=0) ";
+				hql +=" and (datediff (createTime,:createTime)=0) ";
 			}else{
 				hql += " and " + key + " =:" + key;
 			}

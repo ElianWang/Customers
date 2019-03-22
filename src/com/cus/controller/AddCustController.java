@@ -144,13 +144,13 @@ public class AddCustController {
 			map.put("isVip", isVip);
 		}
 		if(createTime != null && !createTime.isEmpty()){
-			map.put("createTime", createTime);
+			map.put("createTime", createTime+" 00:00:00");
 		}
 		if(startTime != null && !startTime.isEmpty()){
-			map.put("startTime", startTime);
+			map.put("startTime", startTime+" 00:00:00");
 		}
 		if(endTime != null && !endTime.isEmpty()){
-			map.put("endTime", endTime);
+			map.put("endTime", endTime+" 23:59:59");
 		}
 		Pagination<Customers> pagination =cust.getCustInfo(map,pageIndex, pageSize);
 		JSONArray rows = new JSONArray();
@@ -473,10 +473,10 @@ public class AddCustController {
 			map.put("createTime", createTime+"%");
 		}
 		if(startTime != null && !startTime.isEmpty()){
-			map.put("startTime", startTime);
+			map.put("startTime", startTime+" 00:00:00");
 		}
 		if(endTime != null && !endTime.isEmpty()){
-			map.put("endTime", endTime);
+			map.put("endTime", endTime+" 23:59:59");
 		}
 		
 		List<Customers> docs = cust.queryAllList(map);
@@ -499,9 +499,9 @@ public class AddCustController {
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
 		String date = simpleDateFormat.format(new Date());
 		if(docs!=null&&docs.size()>0){
-			modelMap.put(NormalExcelConstants.FILE_NAME,"档案"+date);
+			modelMap.put(NormalExcelConstants.FILE_NAME,"客户"+date);
 			modelMap.put(NormalExcelConstants.CLASS,Customers.class);
-			modelMap.put(NormalExcelConstants.PARAMS,new ExportParams("档案列表","导出信息"));
+			modelMap.put(NormalExcelConstants.PARAMS,new ExportParams("客户列表","导出信息"));
 			modelMap.put(NormalExcelConstants.DATA_LIST,docs);
 			return NormalExcelConstants.JEECG_EXCEL_VIEW;
 		}else{
